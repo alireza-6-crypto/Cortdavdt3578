@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#190d2c">
+<title>برای قشنگ‌ترین دختر دنیا 🌷</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Vazirmatn:wght@300;400;500;600;700;800&display=swap');
+:root{--pink:#ff8fbd;--rose:#ff5c9a;--lav:#c9a6ff;--ink:#fff7ff;--muted:#e4d6ee;--glass:rgba(255,255,255,.09)}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;font-family:'Vazirmatn',Tahoma,sans-serif;color:var(--ink);background:#130a22;overflow-x:hidden}
+body:before{content:"";position:fixed;inset:0;z-index:-3;background:radial-gradient(ellipse at 20% 20%,#55265f 0,transparent 42%),radial-gradient(ellipse at 85% 30%,#3c235f 0,transparent 38%),linear-gradient(145deg,#160b28,#28102f 55%,#100b24)}
+#stars,.hearts{position:fixed;inset:0;pointer-events:none;overflow:hidden;z-index:-1}
+.star{position:absolute;width:3px;height:3px;border-radius:50%;background:#fff;opacity:.55;animation:twinkle 3s infinite ease-in-out}
+@keyframes twinkle{50%{opacity:.15;transform:scale(.6)}}
+.float-heart{position:absolute;bottom:-50px;opacity:0;animation:rise linear forwards;filter:drop-shadow(0 0 8px #ff6aa8)}
+@keyframes rise{10%{opacity:.75}100%{transform:translateY(-115vh) rotate(25deg);opacity:0}}
+main{width:min(960px,92%);margin:auto}
+section{padding:78px 0;text-align:center}
+.hero{min-height:100svh;display:flex;flex-direction:column;align-items:center;justify-content:center;padding:40px 0;position:relative}
+.eyebrow{letter-spacing:2px;color:#ffc4dc;font-size:.82rem}
+h1{font-size:clamp(2.2rem,7vw,5rem);line-height:1.35;margin:18px 0 10px;font-weight:800;text-shadow:0 0 35px #ff79b855}
+h1 span,.gradient{background:linear-gradient(100deg,#fff0f8,#ff91bf,#d4b5ff);-webkit-background-clip:text;background-clip:text;color:transparent}
+.subtitle{max-width:590px;line-height:2;color:var(--muted);font-size:1.02rem;margin:0 auto 25px}
+button{font:inherit;cursor:pointer;border:0;color:#35112f;background:linear-gradient(110deg,#ffd0e4,#ff83b6 55%,#d6b6ff);padding:13px 23px;border-radius:999px;font-weight:700;box-shadow:0 8px 28px #ff65a533;transition:transform .25s,box-shadow .25s}
+button:hover{transform:translateY(-3px);box-shadow:0 12px 35px #ff65a555}
+button:focus-visible{outline:3px solid white;outline-offset:4px}
+.ghost{background:var(--glass);border:1px solid #ffffff30;color:white;box-shadow:none}
+.hero-buttons{display:flex;flex-wrap:wrap;gap:12px;justify-content:center}
+.scroll-hint{position:absolute;bottom:22px;color:#d9c4e6;font-size:.8rem;animation:bob 2s infinite}
+@keyframes bob{50%{transform:translateY(6px)}}
+.section-label{color:#ffb9d8;font-size:.85rem}
+h2{font-size:clamp(1.7rem,4vw,2.7rem);margin:8px 0 14px}
+.lead{color:var(--muted);line-height:2;max-width:650px;margin:0 auto 28px}
+.card{background:linear-gradient(135deg,#ffffff12,#ffffff06);border:1px solid #ffffff1c;border-radius:26px;padding:clamp(22px,5vw,42px);box-shadow:0 25px 80px #00000020;backdrop-filter:blur(12px)}
+.letter-card{max-width:720px;margin:auto;text-align:right;position:relative;overflow:hidden}
+.letter-card:before{content:"✦";position:absolute;left:22px;top:10px;color:#ffb9d8;font-size:2rem;opacity:.7}
+.letter-card p{line-height:2.25;color:#fff0f8;font-size:1.02rem}
+.signature{text-align:left;color:#ffb9d8;font-weight:700;margin-top:25px}
+.gift-stage{perspective:900px;display:flex;align-items:center;justify-content:center;min-height:240px}
+.gift{position:relative;width:150px;height:120px;cursor:pointer;transform-style:preserve-3d;transition:transform .7s}
+.gift-base{position:absolute;bottom:0;width:150px;height:95px;background:linear-gradient(120deg,#ff77aa,#c65ce2);border-radius:8px 8px 14px 14px;box-shadow:0 18px 30px #0003}
+.gift-base:before{content:"";position:absolute;left:61px;width:28px;height:100%;background:linear-gradient(90deg,#ffe2f0,#fff5fb,#ffb9d9)}
+.gift-lid{position:absolute;top:18px;left:-10px;width:170px;height:28px;border-radius:7px;background:linear-gradient(120deg,#ffc1dd,#ff80b5);z-index:2;transform-origin:12% 100%;transition:transform .75s cubic-bezier(.2,.8,.2,1)}
+.gift-lid:before{content:"";position:absolute;left:71px;width:28px;height:100%;background:#fff0f8}
+.bow{position:absolute;top:-8px;left:58px;width:34px;height:24px;z-index:3}
+.bow:before,.bow:after{content:"";position:absolute;width:24px;height:17px;border:6px solid #ffe7f3;border-radius:80% 20% 70% 25%;transform:rotate(25deg)}
+.bow:after{left:13px;transform:scaleX(-1) rotate(25deg)}
+.gift.open .gift-lid{transform:translate(-28px,-70px) rotate(-28deg)}
+.gift.open{transform:translateY(-5px) rotateX(4deg)}
+.gift-message{max-height:0;opacity:0;overflow:hidden;transition:max-height .8s,opacity .8s;margin:auto;max-width:600px}
+.gift-message.show{max-height:250px;opacity:1;margin-top:20px}
+.gift-message .card{border-color:#ffadd14d}
+.gift-message p{line-height:2;color:#fff0f8}
+.counter-wrap{display:flex;flex-wrap:wrap;align-items:center;justify-content:center;gap:10px;margin:20px auto}
+.counter-box{min-width:100px;padding:20px 16px;border-radius:18px;background:#ffffff0d;border:1px solid #ffffff20}
+.counter-box strong{display:block;font-size:2.2rem;color:#ffb6d6}
+.counter-box span{font-size:.82rem;color:#e8d9f0}
+.date-controls{display:flex;flex-wrap:wrap;justify-content:center;gap:10px;margin-top:22px}
+input[type=date]{font:inherit;background:#ffffff10;color:white;border:1px solid #ffffff35;border-radius:999px;padding:10px 15px}
+input::-webkit-calendar-picker-indicator{filter:invert(1)}
+.magic-message{min-height:86px;display:flex;align-items:center;justify-content:center;line-height:2;font-size:1.15rem;color:#ffe2f0;transition:opacity .2s}
+.final-note{font-size:clamp(1.15rem,3.5vw,1.8rem);line-height:2.1;color:#ffe8f3}
+footer{padding:30px 15px 45px;text-align:center;color:#bca9cc;font-size:.8rem}
+.reveal{opacity:0;transform:translateY(24px);transition:opacity .8s,transform .8s}
+.reveal.visible{opacity:1;transform:none}
+#toast{position:fixed;bottom:22px;left:50%;transform:translate(-50%,20px);opacity:0;background:#fff0f8;color:#431b3d;padding:10px 18px;border-radius:999px;transition:.3s;z-index:10;font-size:.9rem;pointer-events:none}
+#toast.show{opacity:1;transform:translate(-50%,0)}
+@media(max-width:520px){section{padding:60px 0}.card{border-radius:20px}.counter-box{min-width:75px;padding:15px 10px}.counter-box strong{font-size:1.7rem}.subtitle{font-size:.95rem}}
+@media(prefers-reduced-motion:reduce){*,*:before,*:after{animation-duration:.01ms!important;animation-iteration-count:1!important;scroll-behavior:auto!important;transition-duration:.01ms!important}}
+</style>
+</head>
+<body>
+<div id="stars"></div><div class="hearts" id="hearts"></div><div id="toast"></div>
+<main>
+  <section class="hero" id="home">
+    <div class="eyebrow">یک هدیه‌ی کوچولو، از تهِ قلبم ♡</div>
+    <h1>برای <span id="herNameHero">قشنگ‌ترین دختر دنیا</span></h1>
+    <p class="subtitle">بعضی آدم‌ها خودشون شبیه عید و بهارن؛ بودنشون دنیا رو قشنگ‌تر می‌کنه. این گوشه‌ی کوچیک از اینترنت فقط برای توئه. 🌷</p>
+    <div class="hero-buttons">
+      <button onclick="openLetter()">نامه‌ی مخصوص تو 💌</button>
+      <button class="ghost" onclick="document.querySelector('#giftSection').scrollIntoView({behavior:'smooth'})">یه سورپرایز دارم 🎁</button>
+    </div>
+    <div class="scroll-hint">آروم بیا پایین‌تر ↓</div>
+  </section>
+
+  <section id="letterSection" class="reveal">
+    <div class="section-label">✉️ نامه‌ای که فقط برای توئه</div>
+    <h2>چند خط از قلبم</h2>
+    <p class="lead">این نامه رو با عجله نخون؛ هر خطش یه ذره از حرف‌هاییه که شاید همیشه نتونم درست بیانشون کنم.</p>
+    <div class="card letter-card" id="letter">
+      <p>قشنگ‌ترینم،</p>
+      <p>روز دختر مبارک به دختری که حضورش می‌تونه یه روز معمولی رو تبدیل به یه خاطره‌ی قشنگ کنه. شاید همیشه نتونم بهترین جمله‌ها رو پیدا کنم، اما می‌خوام بدونی که بودنت برام ارزشمنده؛ نه فقط به‌خاطر لبخندت، بلکه برای تمام چیزهای کوچیکی که تو رو تبدیل به خودت می‌کنن.</p>
+      <p>امیدوارم همیشه برای آرزوهات بجنگی، به خودت افتخار کنی و یادت بمونه که شایسته‌ی احترام، آرامش و کلی اتفاق خوب هستی. آرزو می‌کنم دلت به اندازه‌ی قشنگی‌ای که به دنیای من میاری، خوشحال باشه. 🤍</p>
+      <p>امروز بهونه‌ایه برای گفتن چیزی که باید بیشتر گفته بشه: ممنونم که خودتی.</p>
+      <div class="signature">با کلی عشق و یه عالمه آرزوی خوب،<br>آدمِ تو 🤍</div>
+    </div>
+    <button style="margin-top:22px" onclick="makeConfetti()">یه عالمه قلب بفرست ❤️</button>
+  </section>
+
+  <section id="giftSection" class="reveal">
+    <div class="section-label">🎀 بازش کن، مال توئه</div>
+    <h2>یه جعبه‌ی پر از حس خوب</h2>
+    <p class="lead">روی جعبه بزن تا سورپرایز کوچولوت رو ببینی.</p>
+    <div class="gift-stage">
+      <div class="gift" id="gift" role="button" tabindex="0" aria-label="باز کردن جعبه هدیه" onclick="toggleGift()" onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();toggleGift()}">
+        <div class="gift-lid"></div><div class="bow"></div><div class="gift-base"></div>
+      </div>
+    </div>
+    <div class="gift-message" id="giftMessage">
+      <div class="card"><div style="font-size:2rem">🌸 ✨ 🌷</div><h3>روز دختر مبارک، قشنگم!</h3><p>هدیه‌ی من شاید توی جعبه جا نشه، ولی برات آرزو می‌کنم دلت همیشه گرم، خنده‌هات واقعی و مسیرت پر از فرصت‌های قشنگ باشه. تو لایق بهترین‌هایی.</p></div>
+    </div>
+  </section>
+
+  <section class="reveal" id="memories">
+    <div class="section-label">🫶🏻 قصه‌ی ما</div>
+    <h2>از روزی که آشنا شدیم...</h2>
+    <p class="lead">تاریخ آشنایی‌تون رو انتخاب کن تا شمارش خاطره‌ها شروع بشه. (این بخش رو می‌تونی با تاریخ واقعی خودتون تنظیم کنی.)</p>
+    <div class="counter-wrap">
+      <div class="counter-box"><strong id="days">—</strong><span>روز</span></div>
+      <div class="counter-box"><strong id="hours">—</strong><span>ساعت</span></div>
+      <div class="counter-box"><strong id="minutes">—</strong><span>دقیقه</span></div>
+      <div class="counter-box"><strong id="seconds">—</strong><span>ثانیه</span></div>
+    </div>
+    <div class="date-controls">
+      <input type="date" id="startDate" aria-label="تاریخ آشنایی">
+      <button onclick="saveDate()">ثبت تاریخ 🤍</button>
+    </div>
+    <p id="dateHint" style="color:#d9c4e6;font-size:.85rem;margin-top:14px">تاریخ آشنایی‌تون رو انتخاب کن.</p>
+  </section>
+
+  <section class="reveal">
+    <div class="section-label">✨ یه دکمه‌ی جادویی</div>
+    <h2>اگه بدونی چقدر برام عزیزی...</h2>
+    <p class="lead">هر بار که دلت خواست، یه پیام کوچولو برای خودت باز کن.</p>
+    <div class="card">
+      <div class="magic-message" id="magicMessage">شاید اینجا باشه که باید بگم: تو خیلی بیشتر از چیزی که فکر می‌کنی ارزشمندی. 🤍</div>
+      <button onclick="newMessage()">یه حرف دیگه بهم بزن ✨</button>
+    </div>
+  </section>
+
+  <section class="reveal">
+    <div style="font-size:2rem;margin-bottom:10px">🌷 🤍 🌙</div>
+    <div class="final-note">این سایت شاید فقط چند خط کد باشه،<br>ولی تک‌تک جزئیاتش رو با فکر تو ساختم.</div>
+    <p class="lead" style="margin-top:15px">روز دختر مبارک، قشنگ‌ترین اتفاقِ روزهای من.</p>
+    <button class="ghost" onclick="window.scrollTo({top:0,behavior:'smooth'})">از اول، دوباره بخون ♡</button>
+  </section>
+</main>
+<footer>با عشق ساخته شده، فقط برای تو ✦</footer>
+<script>
+// ✨ شخصی‌سازی: اسم و تاریخ را در این دو خط تغییر بده.
+const HER_NAME = "قشنگ‌ترین دختر دنیا";
+const DEFAULT_DATE = ""; // نمونه: "2025-05-20"
+document.getElementById("herNameHero").textContent = HER_NAME;
+
+const stars = document.getElementById("stars");
+for(let i=0;i<75;i++){const s=document.createElement("i");s.className="star";s.style.left=Math.random()*100+"%";s.style.top=Math.random()*100+"%";s.style.animationDelay=Math.random()*3+"s";s.style.animationDuration=(2+Math.random()*3)+"s";stars.appendChild(s)}
+function spawnHeart(){const h=document.createElement("span");h.className="float-heart";h.textContent=["♡","♥","✦","💗"][Math.floor(Math.random()*4)];h.style.left=Math.random()*100+"%";h.style.fontSize=(14+Math.random()*24)+"px";h.style.animationDuration=(7+Math.random()*7)+"s";document.getElementById("hearts").appendChild(h);setTimeout(()=>h.remove(),14500)}
+setInterval(spawnHeart,650);
+const observer=new IntersectionObserver(entries=>entries.forEach(e=>{if(e.isIntersecting){e.target.classList.add("visible");observer.unobserve(e.target)}}),{threshold:.12});
+document.querySelectorAll(".reveal").forEach(el=>observer.observe(el));
+function openLetter(){document.getElementById("letterSection").scrollIntoView({behavior:"smooth"});setTimeout(()=>document.getElementById("letter").animate([{transform:"scale(.98)"},{transform:"scale(1)"}],{duration:500}),450)}
+let giftOpen=false;
+function toggleGift(){giftOpen=!giftOpen;document.getElementById("gift").classList.toggle("open",giftOpen);document.getElementById("giftMessage").classList.toggle("show",giftOpen);if(giftOpen)makeConfetti()}
+function toast(text){const t=document.getElementById("toast");t.textContent=text;t.classList.add("show");setTimeout(()=>t.classList.remove("show"),2300)}
+function makeConfetti(){for(let i=0;i<24;i++){setTimeout(()=>{const h=document.createElement("span");h.className="float-heart";h.textContent=["💗","💖","💕","✨"][Math.floor(Math.random()*4)];h.style.left=(15+Math.random()*70)+"%";h.style.bottom="15%";h.style.fontSize=(16+Math.random()*22)+"px";h.style.animationDuration=(2.5+Math.random()*2)+"s";document.getElementById("hearts").appendChild(h);setTimeout(()=>h.remove(),5000)},i*45)}}
+const messages=[
+"حتی روزهای معمولی هم وقتی تو توی فکرمی، یه ذره قشنگ‌ترن. 🌷",
+"لازم نیست همیشه قوی باشی؛ تو حق داری استراحت کنی و به خودت برسی. 🤍",
+"امیدوارم امروز یه دلیل کوچولو برای لبخند زدن پیدا کنی. ✨",
+"تو فقط برای کسی که دوستت داره مهم نیستی؛ خودت به‌تنهایی ارزشمندی.",
+"اگه امروز یادت رفت چقدر فوق‌العاده‌ای، این پیام رو دوباره بخون. 💗",
+"آرزو می‌کنم به تمام چیزهایی که با ذوق توی دلت نگه داشتی برسی. 🌙",
+"یکی از قشنگ‌ترین چیزها درباره‌ی تو، خودِ خودتی؛ همون‌طوری که هستی.",
+"کاش می‌شد یه ذره از آرامشی که برام میاری، به خودت برگردونم. 🫶🏻",
+"روز دختر مبارک؛ بدرخش، نه برای تأیید کسی، برای دل خودت. 🌸"
+];
+let last=-1;
+function newMessage(){let n;do{n=Math.floor(Math.random()*messages.length)}while(n===last);last=n;const el=document.getElementById("magicMessage");el.style.opacity=0;setTimeout(()=>{el.textContent=messages[n];el.style.opacity=1},180);}
+
+// شمارنده‌ی خاطره‌ها؛ تاریخ را می‌توان از داخل صفحه هم انتخاب کرد.
+const dateInput=document.getElementById("startDate");
+let startDate=null;
+function loadDate(){const saved=localStorage.getItem("ourStartDate")||DEFAULT_DATE;if(saved){dateInput.value=saved;setStartDate(saved)}}
+function setStartDate(value){if(!value){startDate=null;return}const d=new Date(value+"T00:00:00");if(Number.isNaN(d.getTime())||d>Date.now()){toast("یه تاریخ معتبر در گذشته انتخاب کن 🤍");return}startDate=d;localStorage.setItem("ourStartDate",value);document.getElementById("dateHint").textContent="از اون روز تا همین لحظه، زمان داره خاطره جمع می‌کنه. 🤍";updateCounter()}
+function saveDate(){if(!dateInput.value){toast("اول تاریخ آشنایی‌تون رو انتخاب کن 🌸");return}setStartDate(dateInput.value)}
+function updateCounter(){if(!startDate)return;let diff=Math.max(0,Date.now()-startDate.getTime());const day=Math.floor(diff/86400000);diff%=86400000;const hour=Math.floor(diff/3600000);diff%=3600000;const minute=Math.floor(diff/60000);const second=Math.floor((Date.now()-startDate.getTime())/1000)%60;document.getElementById("days").textContent=day.toLocaleString("fa-IR");document.getElementById("hours").textContent=hour.toLocaleString("fa-IR");document.getElementById("minutes").textContent=minute.toLocaleString("fa-IR");document.getElementById("seconds").textContent=second.toLocaleString("fa-IR")}
+loadDate();setInterval(updateCounter,1000);
+</script>
+</body>
+</html>
